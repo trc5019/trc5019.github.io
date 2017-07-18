@@ -1,0 +1,206 @@
+body {
+	box-sizing: border-box;
+}
+
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+a {
+	color:#fff;
+	text-decoration: none;
+}
+body {
+	font-family: Raleway, sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	background-color: #fff;
+	box-shadow: 1px 1px 1px 1px #e6e6e6;
+}
+nav ul {
+	display: flex;
+	margin: 2rem;
+
+}
+
+nav ul li {
+	margin: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+nav ul li a:hover {
+	color: #f1c40f;
+}
+
+.main-title {
+	flex: 1;
+	margin: 2rem;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.main-title span {
+	padding: 0.5rem;
+	background-color: #f1c40f;
+}
+
+.container {
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+	align-items: center;
+	background: #000411;
+}
+
+.box {
+	display: flex;
+	margin: 1rem;
+	color: #fff;
+}
+
+.box:hover {
+	color: #f1c40f;
+}
+
+.icon {
+	width: 65px;
+	height: 65px;
+}
+
+.icon:hover {
+	background: #fff;
+}
+
+
+.title-h {
+	font-size: 2rem;
+	font-weight: 300;
+
+}
+
+.title-h span {
+	background-color:#f1c40f;
+	padding: 1rem;
+	color: #000;
+}
+
+.section{
+	display: flex;
+	width: 100vw;
+	height: 45vh;
+	background: #003252;
+	margin-top: 1vh;
+
+}
+
+.section-title {
+	height: 1.5rem;
+	font-size: 1rem;
+	color: #fff;
+	margin: 1rem;
+	border-bottom: 1px solid #f1c40f;
+	text-transform: uppercase;
+	justify-content: center;
+	align-items: center;
+}
+
+.post {
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+	height: 200px;
+	margin: 1vw;
+	border-radius: 5px;
+	background: #b6b6b6;
+	justify-content: center;
+	align-items: center;
+}
+
+.post:hover {
+	box-shadow: 1px 1px 1px 1px #000;
+	background: #f1c40f;
+	color:#fff;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.about-p {
+	color: #fff;
+	padding: 2vh;
+	font-family: 'Raleway',sans-serif;
+	font-size: 18px;
+	
+}
+
+.w-link {
+	color: #f1c40f;
+}
+
+
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #e6e6e6;
+	height: 3vh;
+
+	
+}
+
+@media (max-width: 600px){
+
+	nav, nav ul, nav ul li {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav ul {
+		margin: 0.5rem;
+	}
+
+	nav ul li {
+		margin: 10px;
+	}
+
+
+}
+
+@media (max-width: 900px){
+
+	nav, nav ul, nav ul li {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	nav ul {
+		margin: 0.5rem;
+	}
+
+	nav ul li {
+		margin: 10px;
+	}
+
+
+}
+
+
+
