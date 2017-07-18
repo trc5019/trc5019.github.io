@@ -199,14 +199,7 @@ footer {
 	nav ul li {
 		margin: 10px;
 	}
-	.section, .post {
-		flex-direction: column;
-		height: 33vw;
-		}
 	
-
-
-
 }
 
 @media (max-width: 900px){
