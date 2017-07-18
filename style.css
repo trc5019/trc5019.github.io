@@ -201,6 +201,7 @@ footer {
 	}
 	.section, .post {
 		flex-direction: column;
+		height: 33vw;
 		}
 	
 
