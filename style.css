@@ -199,7 +199,15 @@ footer {
 		margin: 10px;
 	}
 
-
+	.section {
+		flex-direction: column;
+		}
+		.section-title {
+			border-bottom: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 }
 
 
