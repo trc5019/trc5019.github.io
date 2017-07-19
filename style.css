@@ -183,6 +183,25 @@ footer {
 
 }
 
+@media (max-width: 600px){
+
+	nav, nav ul, nav ul li {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav ul {
+		margin: 0.5rem;
+	}
+
+	nav ul li {
+		margin: 10px;
+	}
+	
+}
+
 @media (max-width: 900px){
 
 	nav, nav ul, nav ul li {
